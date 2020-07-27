@@ -37,7 +37,7 @@ client.on('message', (message) => {
   }
 
   if(message.content == 'embed') {
-    let img = 'https://media.discordapp.net/attachments/478021476998709248/737239663928147989/Capture_2020-07-27-18-26-252.png';
+    let img = 'https://cdn.discordapp.com/avatars/737247926480535552/95cd70fa42e86c7e56dadbceaa045473.png?size=128';
     let embed = new Discord.RichEmbed()
       .setTitle('슝~ 해줄게!')
       .setURL('http://www.naver.com')

@@ -40,7 +40,7 @@ client.on('message', (message) => {
 
   if(message.content == '/si') {
     let embed = new Discord.RichEmbed()
-    let img = 'https://cdn.discordapp.com/icons/419671192857739264/6dccc22df4cb0051b50548627f36c09b.webp?size=256';
+    let img = 'https://images-ext-1.discordapp.net/external/RyofVqSAVAi0H9-1yK6M8NGy2grU5TWZkLadG-rwqk0/https/i.imgur.com/EZRAPxR.png';
     var duration = moment.duration(client.uptime).format(" D [일], H [시간], m [분], s [초]");
     embed.setColor('#186de6')
     embed.setAuthor('server info of 유미 BOT', img)
@@ -99,7 +99,7 @@ client.on('message', (message) => {
     let embed = new Discord.RichEmbed()
       .setAuthor('Help of 유미 BOT', helpImg)
       .setColor('#186de6')
-      .setFooter(`냥냥펀치!`)
+      .setFooter(`냐~옹!`)
       .setTimestamp()
     
     commandList.forEach(x => {

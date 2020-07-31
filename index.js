@@ -92,7 +92,6 @@ client.on('message', (message) => {
     let commandList = [
       {name: '/help', desc: 'help'},
       {name: '유미야', desc: '현재 핑 상태'},
-      {name: 'embed', desc: 'embed'},
       {name: '/초대코드', desc: '해당 채널의 초대 코드 표기'},
     ];
     let commandStr = '';
